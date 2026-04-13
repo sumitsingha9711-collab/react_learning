@@ -1,0 +1,9 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #16c7af;
+    color: rgb(189, 28, 28);
+    border-radius: 5px;
+}

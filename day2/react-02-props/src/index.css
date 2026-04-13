@@ -1,0 +1,43 @@
+.Card img{
+  width: 150px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: block;
+ text-align: center;
+  object-fit: cover;
+  margin: 0;
+}
+
+.Card{
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  border: 5px solid #8caed2;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: center; */
+
+}
+.Card p{
+  margin: 5px 0 0 0;
+
+}
+
+.Card h1{
+  margin: 0;
+}
+
+.Card button{
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8caed2;
+  color: white;
+  cursor: pointer;
+}
