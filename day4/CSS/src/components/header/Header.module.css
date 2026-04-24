@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    /* color: white; */
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.hdr{
+    background-color: red;
+    color: white;
+    /* width: 100px; */
+    margin: 2px 20px;
+}
+
+.btn{
+    background-color: tomato;
+    color: white;
+    width: 100px;
+    margin: 20px 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
