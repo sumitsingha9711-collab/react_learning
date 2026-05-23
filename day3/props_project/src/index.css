@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    /* color: white; */
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card{
+  height: 280px;
+  width: 225px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.top img{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 3px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #8b8b8b;
+  margin: 7px 11px;
+}
+
+.center{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;;
+  gap: 3px;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+
+.center h3{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.center span{
+  font-size: 8px;
+  color: #8b8b8b;
+}
+
+.center h4{
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.center .tag{
+  display: flex;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.center .tag h3{
+  font-size: 10px;
+  color: #dadada;
+  background-color: black;
+  border: 1px solid #dadada;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid #dadadae0;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.bottom h3{
+  font-size: 14px;
+  color: black;
+}
+
+.bottom p{
+  font-size: 10px;
+  color: #8b8b8b;
+  margin: 2px 4px;
+}
+
+.bottom button{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  padding: 3px 6px;
+  color: #dadada;
+}
