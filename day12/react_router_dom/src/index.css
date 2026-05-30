@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+
+.navbar{
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+  background-color: #d06a11;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  font-size: larger;
+}
